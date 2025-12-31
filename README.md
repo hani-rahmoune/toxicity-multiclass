@@ -1,3 +1,5 @@
+<details>
+<summary><strong>Project structure</strong></summary>
 toxicity-multiclass/
 ├── data/
 │   ├── raw/                     # Raw Tox21 data (original files)
@@ -22,6 +24,8 @@ toxicity-multiclass/
 │
 ├── app.py                       # Flask API for deployment
 └── README.md
+</details>
+
 
 
 ## Tox21 Multi-Label Toxicity Prediction
@@ -99,4 +103,5 @@ Execute make_fingerprints.py to generate 2048-bit Morgan fingerprints.
 4. **Evaluation and comparison**
 Analyze and reproduce all reported metrics using
 06_evaluation_base_against_transformers.ipynb.
+
 
