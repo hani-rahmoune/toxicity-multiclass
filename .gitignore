@@ -1,0 +1,14 @@
+
+__pycache__/
+*.pyc
+
+data/raw/
+data/processed/
+data/features/
+
+models/
+results/
+
+.DS_Store
+Thumbs.db
+EOF
