@@ -2,27 +2,27 @@
 <summary><strong>Project structure</strong></summary>
 toxicity-multiclass/
 ├── data/
-│   ├── raw/                     # Raw Tox21 data (original files)
-│   ├── processed/               # Cleaned / split datasets
-│   └── features/                # Precomputed features (Morgan fingerprints)
+│ ├── raw/ # Raw Tox21 data (original files)
+│ ├── processed/ # Cleaned / split datasets
+│ └── features/ # Precomputed features (Morgan fingerprints)
 │
 ├── notebooks/
-│   ├── 01_exploring_cleaning data.ipynb
-│   ├── 02_xgboost_baseline.ipynb
-│   ├── 05_chemberta_training.ipynb
-│   └── 06_evaluation_base_against_transformers.ipynb
-│   
+│ ├── 01_exploring_cleaning_data.ipynb
+│ ├── 02_xgboost_baseline.ipynb
+│ ├── 05_chemberta_training.ipynb
+│ └── 06_evaluation_base_against_transformers.ipynb
+│
 ├── src/
-│   └── toxicity/
-│       ├── data/                # Downloading, cleaning, featurization code
-│       ├── models/              # XGBoost, MLP, ChemBERTa implementations
-│       └── training/            # Training loops 
+│ └── toxicity/
+│ ├── data/ # Downloading, cleaning, featurization code
+│ ├── models/ # XGBoost, MLP, ChemBERTa implementations
+│ └── training/ # Training loops
 │
-├── results/                     # Metrics, scores, plots
-├── models/                      # Saved trained models
-├── scripts/                     # Small helper / launch scripts
+├── results/ # Metrics, scores, plots
+├── models/ # Saved trained models
+├── scripts/ # Small helper / launch scripts
 │
-├── app.py                       # Flask API for deployment
+├── app.py # Flask API for deployment
 └── README.md
 </details>
 
@@ -131,6 +131,7 @@ Execute `make_fingerprints.py` to generate 2048-bit Morgan fingerprints.
 
 4. **Evaluation and comparison**  
 Analyze and reproduce all reported metrics using `06_evaluation_base_against_transformers.ipynb`.
+
 
 
 
