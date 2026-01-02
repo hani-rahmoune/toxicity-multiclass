@@ -83,6 +83,12 @@ All reported statistics and comparisons are computed in Notebook 06 (06_evaluati
 
 ## Performance Summary 
 
+| Model       | Macro F1 (Test) | Macro ROC-AUC (Test) |
+|-------------|-----------------|----------------------|
+| XGBoost     | 0.4371          | 0.7852               |
+| ChemBERTa   | 0.4109          | 0.8320               |
+| MLP         | 0.3596          | 0.7505               |
+
 XGBoost achieves the highest decision-level performance (macro F1), while ChemBERTa provides superior ranking ability (ROC-AUC). These results highlight the trade-off between ranking and classification performance in imbalanced multi-label settings.
 
 ## Installation and Usage
@@ -106,6 +112,7 @@ Execute make_fingerprints.py to generate 2048-bit Morgan fingerprints.
 4. **Evaluation and comparison**
 Analyze and reproduce all reported metrics using
 06_evaluation_base_against_transformers.ipynb.
+
 
 
 
