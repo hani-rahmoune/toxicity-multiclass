@@ -31,7 +31,9 @@ toxicity-multiclass/
 ## Tox21 Multi-Label Toxicity Prediction
 
 This project implements an end-to-end machine learning pipeline to predict molecular toxicity across 12 biological assays from SMILES representations.
+
 Classical machine learning models (XGBoost, MLP) are compared with a domain-specific Transformer (ChemBERTa) to assess their effectiveness for computer-aided toxicology in a realistic, data-constrained setting.
+
 
 ## Project Motivation
 
@@ -112,6 +114,7 @@ Execute make_fingerprints.py to generate 2048-bit Morgan fingerprints.
 4. **Evaluation and comparison**
 Analyze and reproduce all reported metrics using
 06_evaluation_base_against_transformers.ipynb.
+
 
 
 
