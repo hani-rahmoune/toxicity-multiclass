@@ -72,7 +72,7 @@ This loss formulation is standard for multi-label toxicity prediction and aligns
 
 ## Evaluation
 <p align="center">
-  <img src="plot/model_comparison_test_metrics" width="500">
+  <img src="plot/model_comparison_test_metrics.png" width="500">
 </p>
 
 Evaluation focuses on macro F1 score, with precision, recall, and ROC-AUC reported as complementary metrics.
@@ -106,6 +106,7 @@ Execute make_fingerprints.py to generate 2048-bit Morgan fingerprints.
 4. **Evaluation and comparison**
 Analyze and reproduce all reported metrics using
 06_evaluation_base_against_transformers.ipynb.
+
 
 
 
