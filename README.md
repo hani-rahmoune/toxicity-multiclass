@@ -102,7 +102,7 @@ All reported statistics and comparisons are computed in **Notebook 06** (`06_eva
 
 | Model       | Macro F1 (Test) | Macro ROC-AUC (Test) |
 |-------------|-----------------|----------------------|
-| XGBoost     | 0.4523          | 0.7744               |
+| XGBoost     | 0.4523          | 0.7944               |
 | ChemBERTa   | 0.4109          | 0.8320               |
 | MLP         | 0.3596          | 0.7505               |
 
@@ -131,6 +131,7 @@ Execute `make_fingerprints.py` to generate 2048-bit Morgan fingerprints.
 
 4. **Evaluation and comparison**  
 Analyze and reproduce all reported metrics using `06_evaluation_base_against_transformers.ipynb`.
+
 
 
 
