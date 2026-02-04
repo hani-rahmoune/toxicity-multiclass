@@ -43,7 +43,7 @@ if USE_NGROK:
         import os
         os.system("pip -q install pyngrok")
         from pyngrok import ngrok
-    ngrok.set_auth_token("36RB4p52BTvedrOllCpxC1kklbc_4NSn5Qd6N4gosKip32kW3")
+    ngrok.set_auth_token(ngrok token)
 
 # LOGGING
 logging.basicConfig(level=logging.INFO)
